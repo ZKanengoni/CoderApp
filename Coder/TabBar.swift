@@ -48,18 +48,18 @@ struct WalkthroughScreen: View {
            
         
             if currentPage == 1{
-                ScreenView(image:  "card4", title: "Coder is the best place to learn to code", detail: "", bgColor: Color("card1"))
+                ScreenView(image:  "Card4", title: "Coder is the best place to learn to code", detail: "", bgColor: Color("card1"))
                     .transition(.scale)
             }
             if currentPage == 2{
             
-                ScreenView(image: "card5", title: "Take the next step to improve your coding knowledge", detail: "", bgColor: Color("card2"))
+                ScreenView(image: "Card5", title: "Take the next step to improve your coding knowledge", detail: "", bgColor: Color("card2"))
                     .transition(.scale)
             }
             
             if currentPage == 3{
                 
-                ScreenView(image: "card6", title: "Coder gives you the freedom to learn and/or improve your coding skill on the go.", detail: "", bgColor: Color("card3"))
+                ScreenView(image: "Card6", title: "Coder gives you the freedom to learn and/or improve your coding skill on the go.", detail: "", bgColor: Color("card3"))
                     .transition(.scale)
             }
             
