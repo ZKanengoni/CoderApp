@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TabBar: View {
     @AppStorage("currentPage") var currentPage = 1
+    @AppStorage("isDarkMode") private var isDarkMode = false
     
     var body: some View {
         if currentPage > totalPages{
@@ -22,6 +23,8 @@ struct TabBar: View {
                     Text("Courses")
                 }
             }
+            .environment(\.colorScheme, isDarkMode ? .dark : .light)
+            .accentColor(.primary)
         }
         else{
             WalkthroughScreen()

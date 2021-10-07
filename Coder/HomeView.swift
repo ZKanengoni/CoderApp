@@ -11,6 +11,7 @@ struct HomeView: View {
     @Binding var showProfile: Bool
     @State var showUpdate = false
     @Binding var showContent: Bool
+    @AppStorage("isDarkMode") private var isDarkMode = false
     
     var body: some View {
         ScrollView {
@@ -42,14 +43,22 @@ struct HomeView: View {
                 .padding(.leading, 14)
                 .padding(.top, 30)
                 
-                ScrollView(.horizontal, showsIndicators: false) {
-                    WatchRingsView()
-                        .padding(.horizontal, 30)
-                        .padding(.bottom, 30)
-                        .onTapGesture {
-                            self.showContent = true
-                    }
-                }
+//                ScrollView(.horizontal, showsIndicators: false) {
+//                    WatchRingsView()
+//                        .padding(.horizontal, 30)
+//                        .padding(.bottom, 30)
+//                        .onTapGesture {
+//                            self.showContent = true
+//                    }
+//                }
+                Picker("Mode", selection: $isDarkMode) {
+                    Text("Light")
+                        .tag(false)
+                    Text("Dark")
+                        .tag(true)
+                }.pickerStyle(SegmentedPickerStyle())
+                .padding()
+
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 20) {

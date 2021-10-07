@@ -12,23 +12,23 @@ struct MenuView: View {
         VStack {
             Spacer()
             VStack(spacing: 16) {
-                Text("Zivai - 30% complete")
+                Text("Settings")
                     .font(.caption)
                 
-                Color.white
-                    .frame(width: 38, height: 6)
-                    .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-                    .frame(width: 130, height: 6, alignment: .leading)
-                    .background(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)).opacity(0.08))
-                    .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-                    .padding()
-                    .frame(width: 150, height: 24)
-                    .background(Color.black.opacity(0.1))
-                    .cornerRadius(12)
-                
-                MenuRow(title: "Account", icon: "gear")
-                MenuRow(title: "Billing", icon: "creditcard")
-                MenuRow(title: "Sign out", icon: "person.crop.circle")
+//                Color.white
+//                    .frame(width: 38, height: 6)
+//                    .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+//                    .frame(width: 130, height: 6, alignment: .leading)
+//                    .background(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)).opacity(0.08))
+//                    .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+//                    .padding()
+//                    .frame(width: 150, height: 24)
+//                    .background(Color.black.opacity(0.1))
+//                    .cornerRadius(12)
+//
+                MenuRow(title: "More", icon: "gear")
+                MenuRow(title: "Delete", icon: "stop")
+                MenuRow(title: "Logout", icon: "creditcard")
             }
             .frame(maxWidth: .infinity)
             .frame(height: 300)

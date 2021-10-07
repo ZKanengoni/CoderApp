@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC74117D270F5DCB003BB584 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC74117C270F5DCB003BB584 /* SearchView.swift */; };
 		CC86830426CE0F1A0088DC44 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86830326CE0F1A0088DC44 /* CourseDetail.swift */; };
 		CCB6A1DF26CC1ABF00AA2300 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6A1DE26CC1ABF00AA2300 /* MenuView.swift */; };
 		CCB6A1E126CC249A00AA2300 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB6A1E026CC249A00AA2300 /* Home.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC74117C270F5DCB003BB584 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		CC86830326CE0F1A0088DC44 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		CCB6A1DE26CC1ABF00AA2300 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		CCB6A1E026CC249A00AA2300 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				CCB6A1F026CDA8B000AA2300 /* Work_Sans */,
 				CCE9299926CAD27F000168DA /* Info.plist */,
 				CCE9299626CAD27F000168DA /* Preview Content */,
+				CC74117C270F5DCB003BB584 /* SearchView.swift */,
 			);
 			path = Coder;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				CCB6A1E526CC4CCE00AA2300 /* UpdateList.swift in Sources */,
 				CCB6A1E926CC50D400AA2300 /* UpdateStore.swift in Sources */,
 				CCB6A1E126CC249A00AA2300 /* Home.swift in Sources */,
+				CC74117D270F5DCB003BB584 /* SearchView.swift in Sources */,
 				CC86830426CE0F1A0088DC44 /* CourseDetail.swift in Sources */,
 				CCB6A1E326CC32F500AA2300 /* HomeView.swift in Sources */,
 				CCE9299126CAD279000168DA /* CoderApp.swift in Sources */,
